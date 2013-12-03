@@ -58,7 +58,7 @@ use File::Copy (); # in Core since 5.002
 
 # App Config
 my $DEBUG = $ENV{WATSON_DEBUG};
-my $RCNAME = ".watsonrc";		# Change config file name
+my $RCNAME = $ENV{HOME}."/.watsonrc";  # Change config file name
 my $TMPOUT = ".watsonresults";	# Change tmp file name
 
 # Global variables
